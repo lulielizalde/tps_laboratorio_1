@@ -49,7 +49,7 @@ void menu(){
 			limpiar();
 			break;
 		case 3:
-			if(opcion == 3 && x == 0 && y == 0 && z == 0){
+			if(x == 0 || y == 0 || z == 0){
 				printf("Porfavor, ingrese valores para poder realizar las operaciones.");
 				system("pause"); // el sistema espera que el usuario presione una tecla.
 				limpiar();
